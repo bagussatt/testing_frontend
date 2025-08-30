@@ -9,7 +9,7 @@ function LoginPage() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/api/auth/login', {
+      const response = await axios.post('https://0dzk6j66-3000.asse.devtunnels.ms/api/auth/login', {
         username,
         password,
       });
